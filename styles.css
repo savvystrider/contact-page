@@ -10,4 +10,42 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+    color: white;
+    line-height: 1.5
+}
+
+input, label, button {
+    font-family: inherit;
+}
+
+label {
+    display: inline-block;
+    font-size: 0.875rem;
+}
+
+h1 {
+    font-size: 2rem;
+    font-size: clamp(2rem, 0rem + 5vw, 4rem);
+    margin-bottom: 0;
+}
+
+p.subtitle {
+    font-size: 1.25rem;
+    font-size: clamp(1.25rem, 0.5rem + 1.875vw, 2rem);
+    margin-top: 0;
+}
+
+.contact-btn {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.25rem;
+}
+
+header {
+    padding: 1em;
+}
+
+main {
+    text-align: center;
+    padding: 1em 2em;
 }
